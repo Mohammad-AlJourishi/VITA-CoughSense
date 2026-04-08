@@ -56,7 +56,7 @@ VITA addresses a critical gap in asthma management: patients have no objective w
 - [COVID-19 Cough Sounds](https://www.kaggle.com/datasets/pranaynandan63/covid-19-cough-sounds) — 1,207 healthy / 149 COVID-19
 - [Coswara Heavy Cough](https://www.kaggle.com/datasets/sarabhian/coswara-dataset-heavy-cough) — 1,648 healthy / 146 symptomatic / 480 COVID-19
 
-Training log: [`DeepCoughnet_Model.log`]([DeepCoughNet_Model.log](https://github.com/Mohammad-AlJourishi/VITA-CoughSense/blob/main/DeepCoughNet%20Model.log))
+Training log: [`DeepCoughNet Model.log`](https://github.com/Mohammad-AlJourishi/VITA-CoughSense/blob/e32dc44d96e7a7708e113c4a93e2bf4137008fc8/DeepCoughNet%20Model.log)
 
 
 ---
@@ -82,7 +82,7 @@ Training log: [`DeepCoughnet_Model.log`]([DeepCoughNet_Model.log](https://github
 | `coughgate_v3_elderly.onnx` | Age ≥ 60 |
 | `coughgate_v3_universal.onnx` | Fallback |
 
-Training log: [`logs/coughgate_v3_training.log`]([logs/coughgate_v3_training.log](https://github.com/Mohammad-AlJourishi/VITA-CoughSense/blob/edb6fc6a5e1efcad0c7ada8677134e17af9cc992/DeepCoughNet%20Model.log))
+Training log: [`CoughGate Model.log`](https://github.com/Mohammad-AlJourishi/VITA-CoughSense/blob/e32dc44d96e7a7708e113c4a93e2bf4137008fc8/CoughGate%20Model.log)
 
 ---
 
