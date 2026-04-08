@@ -82,7 +82,7 @@ Training log: [`DeepCoughnet Model.log`]([DeepCoughNet_Model.log](https://github
 | `coughgate_v3_elderly.onnx` | Age ≥ 60 |
 | `coughgate_v3_universal.onnx` | Fallback |
 
-Training log: [`logs/coughgate_v3_training.log`](logs/coughgate_v3_training.log)
+Training log: [`logs/coughgate_v3_training.log`]([logs/coughgate_v3_training.log](https://github.com/Mohammad-AlJourishi/VITA-CoughSense/blob/edb6fc6a5e1efcad0c7ada8677134e17af9cc992/DeepCoughNet%20Model.log))
 
 ---
 
