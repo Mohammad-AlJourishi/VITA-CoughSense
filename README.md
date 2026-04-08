@@ -56,7 +56,7 @@ VITA addresses a critical gap in asthma management: patients have no objective w
 - [COVID-19 Cough Sounds](https://www.kaggle.com/datasets/pranaynandan63/covid-19-cough-sounds) — 1,207 healthy / 149 COVID-19
 - [Coswara Heavy Cough](https://www.kaggle.com/datasets/sarabhian/coswara-dataset-heavy-cough) — 1,648 healthy / 146 symptomatic / 480 COVID-19
 
-Training log: [`DeepCoughnet Model.log`]([DeepCoughNet_Model.log](https://github.com/Mohammad-AlJourishi/VITA-CoughSense/blob/main/DeepCoughNet%20Model.log))
+Training log: [`DeepCoughnet_Model.log`]([DeepCoughNet_Model.log](https://github.com/Mohammad-AlJourishi/VITA-CoughSense/blob/main/DeepCoughNet%20Model.log))
 
 
 ---
