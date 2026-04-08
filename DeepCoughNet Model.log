@@ -1,0 +1,623 @@
+7.4s 1 0.00s - Debugger warning: It seems that frozen modules are being used, which may
+7.4s 2 0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+7.4s 3 0.00s - to python to disable frozen modules.
+7.4s 4 0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+8.0s 5 0.00s - Debugger warning: It seems that frozen modules are being used, which may
+8.0s 6 0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+8.0s 7 0.00s - to python to disable frozen modules.
+8.0s 8 0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+9.3s 9 Installing packages...
+67.7s 10 ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+67.7s 11 bigframes 2.31.0 requires google-cloud-bigquery-storage<3.0.0,>=2.30.0, which is not installed.
+67.7s 12 cesium 0.12.4 requires numpy<3.0,>=2.0, but you have numpy 1.26.4 which is incompatible.
+67.7s 13 kaggle-environments 1.27.0 requires numpy>=2.0, but you have numpy 1.26.4 which is incompatible.
+67.7s 14 google-colab 1.0.0 requires jupyter-server==2.14.0, but you have jupyter-server 2.12.5 which is incompatible.
+67.7s 15 google-colab 1.0.0 requires pandas==2.2.2, but you have pandas 2.3.3 which is incompatible.
+67.7s 16 dopamine-rl 4.1.2 requires gym<=0.25.2, but you have gym 0.26.2 which is incompatible.
+67.7s 17 jaxlib 0.7.2 requires numpy>=2.0, but you have numpy 1.26.4 which is incompatible.
+67.7s 18 tsfresh 0.21.1 requires scipy>=1.14.0; python_version >= "3.10", but you have scipy 1.13.1 which is incompatible.
+67.7s 19 opencv-contrib-python 4.12.0.88 requires numpy<2.3.0,>=2; python_version >= "3.9", but you have numpy 1.26.4 which is incompatible.
+67.7s 20 opencv-python 4.12.0.88 requires numpy<2.3.0,>=2; python_version >= "3.9", but you have numpy 1.26.4 which is incompatible.
+67.7s 21 shap 0.50.0 requires numpy>=2, but you have numpy 1.26.4 which is incompatible.
+67.7s 22 jax 0.7.2 requires numpy>=2.0, but you have numpy 1.26.4 which is incompatible.
+67.7s 23 rasterio 1.5.0 requires numpy>=2, but you have numpy 1.26.4 which is incompatible.
+67.7s 24 tobler 0.13.0 requires numpy>=2.0, but you have numpy 1.26.4 which is incompatible.
+67.7s 25 opencv-python-headless 4.12.0.88 requires numpy<2.3.0,>=2; python_version >= "3.9", but you have numpy 1.26.4 which is incompatible.
+67.7s 26 pytensor 2.36.3 requires numpy>=2.0, but you have numpy 1.26.4 which is incompatible.
+67.7s 27 access 1.1.10.post3 requires scipy>=1.14.1, but you have scipy 1.13.1 which is incompatible.
+67.9s 28 ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+67.9s 29 bigframes 2.31.0 requires google-cloud-bigquery-storage<3.0.0,>=2.30.0, which is not installed.
+67.9s 30 cesium 0.12.4 requires numpy<3.0,>=2.0, but you have numpy 1.26.4 which is incompatible.
+67.9s 31 kaggle-environments 1.27.0 requires numpy>=2.0, but you have numpy 1.26.4 which is incompatible.
+67.9s 32 google-colab 1.0.0 requires jupyter-server==2.14.0, but you have jupyter-server 2.12.5 which is incompatible.
+67.9s 33 google-colab 1.0.0 requires pandas==2.2.2, but you have pandas 2.3.3 which is incompatible.
+67.9s 34 dopamine-rl 4.1.2 requires gym<=0.25.2, but you have gym 0.26.2 which is incompatible.
+67.9s 35 jaxlib 0.7.2 requires numpy>=2.0, but you have numpy 1.26.4 which is incompatible.
+67.9s 36 tsfresh 0.21.1 requires scipy>=1.14.0; python_version >= "3.10", but you have scipy 1.13.1 which is incompatible.
+67.9s 37 opencv-contrib-python 4.12.0.88 requires numpy<2.3.0,>=2; python_version >= "3.9", but you have numpy 1.26.4 which is incompatible.
+67.9s 38 opencv-python 4.12.0.88 requires numpy<2.3.0,>=2; python_version >= "3.9", but you have numpy 1.26.4 which is incompatible.
+67.9s 39 shap 0.50.0 requires numpy>=2, but you have numpy 1.26.4 which is incompatible.
+67.9s 40 jax 0.7.2 requires numpy>=2.0, but you have numpy 1.26.4 which is incompatible.
+67.9s 41 rasterio 1.5.0 requires numpy>=2, but you have numpy 1.26.4 which is incompatible.
+67.9s 42 tobler 0.13.0 requires numpy>=2.0, but you have numpy 1.26.4 which is incompatible.
+67.9s 43 opencv-python-headless 4.12.0.88 requires numpy<2.3.0,>=2; python_version >= "3.9", but you have numpy 1.26.4 which is incompatible.
+67.9s 44 pytensor 2.36.3 requires numpy>=2.0, but you have numpy 1.26.4 which is incompatible.
+67.9s 45 access 1.1.10.post3 requires scipy>=1.14.1, but you have scipy 1.13.1 which is incompatible.
+67.9s 46 
+67.9s 47 ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+67.9s 48 bigframes 2.31.0 requires google-cloud-bigquery-storage<3.0.0,>=2.30.0, which is not installed.
+67.9s 49 cesium 0.12.4 requires numpy<3.0,>=2.0, but you have numpy 1.26.4 which is incompatible.
+67.9s 50 kaggle-environments 1.27.0 requires numpy>=2.0, but you have numpy 1.26.4 which is incompatible.
+67.9s 51 google-colab 1.0.0 requires jupyter-server==2.14.0, but you have jupyter-server 2.12.5 which is incompatible.
+67.9s 52 google-colab 1.0.0 requires pandas==2.2.2, but you have pandas 2.3.3 which is incompatible.
+67.9s 53 dopamine-rl 4.1.2 requires gym<=0.25.2, but you have gym 0.26.2 which is incompatible.
+67.9s 54 jaxlib 0.7.2 requires numpy>=2.0, but you have numpy 1.26.4 which is incompatible.
+67.9s 55 tsfresh 0.21.1 requires scipy>=1.14.0; python_version >= "3.10", but you have scipy 1.13.1 which is incompatible.
+67.9s 56 opencv-contrib-python 4.12.0.88 requires numpy<2.3.0,>=2; python_version >= "3.9", but you have numpy 1.26.4 which is incompatible.
+67.9s 57 opencv-python 4.12.0.88 requires numpy<2.3.0,>=2; python_version >= "3.9", but you have numpy 1.26.4 which is incompatible.
+67.9s 58 shap 0.50.0 requires numpy>=2, but you have numpy 1.26.4 which is incompatible.
+67.9s 59 jax 0.7.2 requires numpy>=2.0, but you have numpy 1.26.4 which is incompatible.
+67.9s 60 rasterio 1.5.0 requires numpy>=2, but you have numpy 1.26.4 which is incompatible.
+67.9s 61 tobler 0.13.0 requires numpy>=2.0, but you have numpy 1.26.4 which is incompatible.
+67.9s 62 opencv-python-headless 4.12.0.88 requires numpy<2.3.0,>=2; python_version >= "3.9", but you have numpy 1.26.4 which is incompatible.
+67.9s 63 pytensor 2.36.3 requires numpy>=2.0, but you have numpy 1.26.4 which is incompatible.
+67.9s 64 access 1.1.10.post3 requires scipy>=1.14.1, but you have scipy 1.13.1 which is incompatible.
+77.7s 65 Done.
+77.7s 66 Pipeline: /kaggle/working/pipeline_v4.py (32,731 bytes)
+77.7s 67 ============================================================
+80.5s 68 2026-03-17 01:38:44,092  numpy 1.26.4
+80.7s 69 2026-03-17 01:38:44,092  numpy 1.26.4
+80.7s 70 
+80.7s 71 2026-03-17 01:38:44,092  numpy 1.26.4
+100.6s 72 2026-03-17 01:39:04,109  CUDA lib paths: ['/usr/local/cuda/lib64', '/usr/local/cuda/lib64/stubs', '/usr/lib/x86_64-linux-gnu', '/usr/local/cuda-12/lib64']
+100.8s 73 2026-03-17 01:39:04,109  CUDA lib paths: ['/usr/local/cuda/lib64', '/usr/local/cuda/lib64/stubs', '/usr/lib/x86_64-linux-gnu', '/usr/local/cuda-12/lib64']
+100.8s 74 
+100.8s 75 2026-03-17 01:39:04,109  CUDA lib paths: ['/usr/local/cuda/lib64', '/usr/local/cuda/lib64/stubs', '/usr/lib/x86_64-linux-gnu', '/usr/local/cuda-12/lib64']
+101.0s 76 [WARNING] ME(59,7cc796d95480,python3):2026-03-17-01:39:04.549.252 [mindspore/ccsrc/runtime/hardware_abstract/device_context/device_context_manager.cc:595] SelectGpuPlugin] Env CUDA_HOME is /usr/local/cuda, but can not find suitable gpu plugin.
+101.2s 77 [WARNING] ME(59,7cc796d95480,python3):2026-03-17-01:39:04.549.252 [mindspore/ccsrc/runtime/hardware_abstract/device_context/device_context_manager.cc:595] SelectGpuPlugin] Env CUDA_HOME is /usr/local/cuda, but can not find suitable gpu plugin.
+101.2s 78 
+101.2s 79 [WARNING] ME(59,7cc796d95480,python3):2026-03-17-01:39:04.549.252 [mindspore/ccsrc/runtime/hardware_abstract/device_context/device_context_manager.cc:595] SelectGpuPlugin] Env CUDA_HOME is /usr/local/cuda, but can not find suitable gpu plugin.
+103.0s 80 [ERROR] ME(59:137196671161472,MainProcess):2026-03-17-01:39:06.570.000 [mindspore/run_check/_check_version.py:229] libcuda.so (need by mindspore-gpu) is not found. Please confirm that libmindspore_gpu.so is in directory:/usr/local/lib/python3.12/dist-packages/mindspore/run_check/../lib/plugin and the correct cuda version has been installed, you can refer to the installation guidelines: https://www.mindspore.cn/install
+103.0s 81 [ERROR] ME(59:137196671161472,MainProcess):2026-03-17-01:39:06.571.000 [mindspore/run_check/_check_version.py:229] libcudnn.so (need by mindspore-gpu) is not found. Please confirm that libmindspore_gpu.so is in directory:/usr/local/lib/python3.12/dist-packages/mindspore/run_check/../lib/plugin and the correct cuda version has been installed, you can refer to the installation guidelines: https://www.mindspore.cn/install
+103.0s 82 2026-03-17 01:39:06,571  GPU failed: Unsupported device target GPU. This process only supports one of the ['CPU']. Please check whether the GPU environment is installed and configured correctly, and check whether current mindspore wheel package was built with "-e GPU". For details, please refer to "Device load error message".
+103.0s 83 
+103.0s 84 ----------------------------------------------------
+103.0s 85 - Device load error message:
+103.0s 86 ----------------------------------------------------
+103.0s 87 Load dynamic library: libmindspore_ascend.so.2 failed. libge_runner.so: cannot open shared object file: No such file or directory
+103.0s 88 Load dynamic library: libmindspore_ops_ascend.so failed. libmindspore_ascend_res_manager.so: cannot open shared object file: No such file or directory
+103.0s 89 
+103.0s 90 ----------------------------------------------------
+103.0s 91 - C++ Call Stack: (For framework developers)
+103.0s 92 ----------------------------------------------------
+103.0s 93 mindspore/core/utils/ms_context.cc:279 SetDeviceTargetFromInner
+103.0s 94 
+103.0s 95 [WARNING] ME(59:137196671161472,MainProcess):2026-03-17-01:39:06.571.000 [mindspore/context.py:1334] For 'context.set_context', the parameter 'device_target' will be deprecated and removed in a future version. Please use the api mindspore.set_device() instead.
+103.0s 96 2026-03-17 01:39:06,571  Device: CPU (GPU not available)
+103.0s 97 2026-03-17 01:39:06,572  MindSpore 2.8.0
+103.0s 98 2026-03-17 01:39:06,576  ============================================================
+103.0s 99 2026-03-17 01:39:06,576  DATASET 1: COUGHVID
+103.0s 100 2026-03-17 01:39:06,576  ============================================================
+103.1s 101 2026-03-17 01:39:06,611  COUGHVID audio (known path): /kaggle/input/datasets/mohammadjourishi/vita2026/archive (2)/public_dataset_v3/coughvid_20211012
+103.1s 102 2026-03-17 01:39:06,612  COUGHVID audio dir: /kaggle/input/datasets/mohammadjourishi/vita2026/archive (2)/public_dataset_v3/coughvid_20211012
+103.2s 103 [ERROR] ME(59:137196671161472,MainProcess):2026-03-17-01:39:06.570.000 [mindspore/run_check/_check_version.py:229] libcuda.so (need by mindspore-gpu) is not found. Please confirm that libmindspore_gpu.so is in directory:/usr/local/lib/python3.12/dist-packages/mindspore/run_check/../lib/plugin and the correct cuda version has been installed, you can refer to the installation guidelines: https://www.mindspore.cn/install
+103.2s 104 [ERROR] ME(59:137196671161472,MainProcess):2026-03-17-01:39:06.571.000 [mindspore/run_check/_check_version.py:229] libcudnn.so (need by mindspore-gpu) is not found. Please confirm that libmindspore_gpu.so is in directory:/usr/local/lib/python3.12/dist-packages/mindspore/run_check/../lib/plugin and the correct cuda version has been installed, you can refer to the installation guidelines: https://www.mindspore.cn/install
+103.2s 105 2026-03-17 01:39:06,571  GPU failed: Unsupported device target GPU. This process only supports one of the ['CPU']. Please check whether the GPU environment is installed and configured correctly, and check whether current mindspore wheel package was built with "-e GPU". For details, please refer to "Device load error message".
+103.2s 106 
+103.2s 107 ----------------------------------------------------
+103.2s 108 - Device load error message:
+103.2s 109 ----------------------------------------------------
+103.2s 110 Load dynamic library: libmindspore_ascend.so.2 failed. libge_runner.so: cannot open shared object file: No such file or directory
+103.2s 111 Load dynamic library: libmindspore_ops_ascend.so failed. libmindspore_ascend_res_manager.so: cannot open shared object file: No such file or directory
+103.2s 112 
+103.2s 113 ----------------------------------------------------
+103.2s 114 - C++ Call Stack: (For framework developers)
+103.2s 115 ----------------------------------------------------
+103.2s 116 mindspore/core/utils/ms_context.cc:279 SetDeviceTargetFromInner
+103.2s 117 
+103.2s 118 [WARNING] ME(59:137196671161472,MainProcess):2026-03-17-01:39:06.571.000 [mindspore/context.py:1334] For 'context.set_context', the parameter 'device_target' will be deprecated and removed in a future version. Please use the api mindspore.set_device() instead.
+103.2s 119 2026-03-17 01:39:06,571  Device: CPU (GPU not available)
+103.2s 120 2026-03-17 01:39:06,572  MindSpore 2.8.0
+103.2s 121 2026-03-17 01:39:06,576  ============================================================
+103.2s 122 2026-03-17 01:39:06,576  DATASET 1: COUGHVID
+103.2s 123 2026-03-17 01:39:06,576  ============================================================
+103.2s 124 2026-03-17 01:39:06,611  COUGHVID audio (known path): /kaggle/input/datasets/mohammadjourishi/vita2026/archive (2)/public_dataset_v3/coughvid_20211012
+103.2s 125 2026-03-17 01:39:06,612  COUGHVID audio dir: /kaggle/input/datasets/mohammadjourishi/vita2026/archive (2)/public_dataset_v3/coughvid_20211012
+103.2s 126 
+103.2s 127 [ERROR] ME(59:137196671161472,MainProcess):2026-03-17-01:39:06.570.000 [mindspore/run_check/_check_version.py:229] libcuda.so (need by mindspore-gpu) is not found. Please confirm that libmindspore_gpu.so is in directory:/usr/local/lib/python3.12/dist-packages/mindspore/run_check/../lib/plugin and the correct cuda version has been installed, you can refer to the installation guidelines: https://www.mindspore.cn/install
+103.2s 128 [ERROR] ME(59:137196671161472,MainProcess):2026-03-17-01:39:06.571.000 [mindspore/run_check/_check_version.py:229] libcudnn.so (need by mindspore-gpu) is not found. Please confirm that libmindspore_gpu.so is in directory:/usr/local/lib/python3.12/dist-packages/mindspore/run_check/../lib/plugin and the correct cuda version has been installed, you can refer to the installation guidelines: https://www.mindspore.cn/install
+103.2s 129 2026-03-17 01:39:06,571  GPU failed: Unsupported device target GPU. This process only supports one of the ['CPU']. Please check whether the GPU environment is installed and configured correctly, and check whether current mindspore wheel package was built with "-e GPU". For details, please refer to "Device load error message".
+103.2s 130 
+103.2s 131 ----------------------------------------------------
+103.2s 132 - Device load error message:
+103.2s 133 ----------------------------------------------------
+103.2s 134 Load dynamic library: libmindspore_ascend.so.2 failed. libge_runner.so: cannot open shared object file: No such file or directory
+103.2s 135 Load dynamic library: libmindspore_ops_ascend.so failed. libmindspore_ascend_res_manager.so: cannot open shared object file: No such file or directory
+103.2s 136 
+103.2s 137 ----------------------------------------------------
+103.2s 138 - C++ Call Stack: (For framework developers)
+103.2s 139 ----------------------------------------------------
+103.2s 140 mindspore/core/utils/ms_context.cc:279 SetDeviceTargetFromInner
+103.2s 141 
+103.2s 142 [WARNING] ME(59:137196671161472,MainProcess):2026-03-17-01:39:06.571.000 [mindspore/context.py:1334] For 'context.set_context', the parameter 'device_target' will be deprecated and removed in a future version. Please use the api mindspore.set_device() instead.
+103.2s 143 2026-03-17 01:39:06,571  Device: CPU (GPU not available)
+103.2s 144 2026-03-17 01:39:06,572  MindSpore 2.8.0
+103.2s 145 2026-03-17 01:39:06,576  ============================================================
+103.2s 146 2026-03-17 01:39:06,576  DATASET 1: COUGHVID
+103.2s 147 2026-03-17 01:39:06,576  ============================================================
+103.2s 148 2026-03-17 01:39:06,611  COUGHVID audio (known path): /kaggle/input/datasets/mohammadjourishi/vita2026/archive (2)/public_dataset_v3/coughvid_20211012
+103.2s 149 2026-03-17 01:39:06,612  COUGHVID audio dir: /kaggle/input/datasets/mohammadjourishi/vita2026/archive (2)/public_dataset_v3/coughvid_20211012
+105.5s 150 2026-03-17 01:39:09,019    Sample files: ['0f0762c8-4b9a-4c1e-a6c3-230f9d53de47.json', '1ed36fa5-19bb-434b-b41f-7fa2b93763f1.json', '587204a9-b8d4-4f10-b70c-cbf2db847af1.ogg', '48b283df-8bda-4766-b02e-0efee9f7e59c.json', 'afd8d2b2-b4f1-49e0-ace8-29af9eb8f5e6.json']
+105.7s 151 2026-03-17 01:39:09,019    Sample files: ['0f0762c8-4b9a-4c1e-a6c3-230f9d53de47.json', '1ed36fa5-19bb-434b-b41f-7fa2b93763f1.json', '587204a9-b8d4-4f10-b70c-cbf2db847af1.ogg', '48b283df-8bda-4766-b02e-0efee9f7e59c.json', 'afd8d2b2-b4f1-49e0-ace8-29af9eb8f5e6.json']
+105.7s 152 
+105.7s 153 2026-03-17 01:39:09,019    Sample files: ['0f0762c8-4b9a-4c1e-a6c3-230f9d53de47.json', '1ed36fa5-19bb-434b-b41f-7fa2b93763f1.json', '587204a9-b8d4-4f10-b70c-cbf2db847af1.ogg', '48b283df-8bda-4766-b02e-0efee9f7e59c.json', 'afd8d2b2-b4f1-49e0-ace8-29af9eb8f5e6.json']
+281.8s 154 2026-03-17 01:42:05,346  Found mel cache: /kaggle/input/datasets/mohammad002/deepcoughnet-cache/mel_dataset.npz (409.0 MB)
+281.8s 155 2026-03-17 01:42:05,346  Loading COUGHVID from previous run: /kaggle/input/datasets/mohammad002/deepcoughnet-cache/mel_dataset.npz
+282.0s 156 2026-03-17 01:42:05,346  Found mel cache: /kaggle/input/datasets/mohammad002/deepcoughnet-cache/mel_dataset.npz (409.0 MB)
+282.0s 157 2026-03-17 01:42:05,346  Loading COUGHVID from previous run: /kaggle/input/datasets/mohammad002/deepcoughnet-cache/mel_dataset.npz
+282.0s 158 
+282.0s 159 2026-03-17 01:42:05,346  Found mel cache: /kaggle/input/datasets/mohammad002/deepcoughnet-cache/mel_dataset.npz (409.0 MB)
+282.0s 160 2026-03-17 01:42:05,346  Loading COUGHVID from previous run: /kaggle/input/datasets/mohammad002/deepcoughnet-cache/mel_dataset.npz
+318.6s 161 2026-03-17 01:42:42,137  COUGHVID: 13535 samples
+318.6s 162 2026-03-17 01:42:42,138    Class 0 (healthy): 10132
+318.6s 163 2026-03-17 01:42:42,138    Class 1 (symptomatic): 2683
+318.6s 164 2026-03-17 01:42:42,138    Class 2 (COVID-19-positive): 720
+318.6s 165 2026-03-17 01:42:42,138  ============================================================
+318.6s 166 2026-03-17 01:42:42,138  DATASET 2: COVID-19 Cough Sounds
+318.6s 167 2026-03-17 01:42:42,138  ============================================================
+318.8s 168 2026-03-17 01:42:42,137  COUGHVID: 13535 samples
+318.8s 169 2026-03-17 01:42:42,138    Class 0 (healthy): 10132
+318.8s 170 2026-03-17 01:42:42,138    Class 1 (symptomatic): 2683
+318.8s 171 2026-03-17 01:42:42,138    Class 2 (COVID-19-positive): 720
+318.8s 172 2026-03-17 01:42:42,138  ============================================================
+318.8s 173 2026-03-17 01:42:42,138  DATASET 2: COVID-19 Cough Sounds
+318.8s 174 2026-03-17 01:42:42,138  ============================================================
+318.8s 175 
+318.8s 176 2026-03-17 01:42:42,137  COUGHVID: 13535 samples
+318.8s 177 2026-03-17 01:42:42,138    Class 0 (healthy): 10132
+318.8s 178 2026-03-17 01:42:42,138    Class 1 (symptomatic): 2683
+318.8s 179 2026-03-17 01:42:42,138    Class 2 (COVID-19-positive): 720
+318.8s 180 2026-03-17 01:42:42,138  ============================================================
+318.8s 181 2026-03-17 01:42:42,138  DATASET 2: COVID-19 Cough Sounds
+318.8s 182 2026-03-17 01:42:42,138  ============================================================
+356.1s 183 2026-03-17 01:43:19,625  Copied COVID sounds cache from /kaggle/input/datasets/mohammad002/deepcoughnet-cache/covid_sounds_mel.npz
+356.1s 184 2026-03-17 01:43:19,625  Loading from cache: /kaggle/working/cache/covid_sounds_mel.npz
+356.3s 185 2026-03-17 01:43:19,625  Copied COVID sounds cache from /kaggle/input/datasets/mohammad002/deepcoughnet-cache/covid_sounds_mel.npz
+356.3s 186 2026-03-17 01:43:19,625  Loading from cache: /kaggle/working/cache/covid_sounds_mel.npz
+356.3s 187 
+356.3s 188 2026-03-17 01:43:19,625  Copied COVID sounds cache from /kaggle/input/datasets/mohammad002/deepcoughnet-cache/covid_sounds_mel.npz
+356.3s 189 2026-03-17 01:43:19,625  Loading from cache: /kaggle/working/cache/covid_sounds_mel.npz
+356.5s 190 2026-03-17 01:43:20,047  COVID-19 Cough Sounds: 1356 samples
+356.5s 191 2026-03-17 01:43:20,048    Class 0 (healthy): 1207
+356.5s 192 2026-03-17 01:43:20,048    Class 2 (COVID-19-positive): 149
+356.5s 193 2026-03-17 01:43:20,048  ============================================================
+356.5s 194 2026-03-17 01:43:20,048  DATASET 3: Coswara Heavy Cough
+356.5s 195 2026-03-17 01:43:20,048  ============================================================
+356.7s 196 2026-03-17 01:43:20,047  COVID-19 Cough Sounds: 1356 samples
+356.7s 197 2026-03-17 01:43:20,048    Class 0 (healthy): 1207
+356.7s 198 2026-03-17 01:43:20,048    Class 2 (COVID-19-positive): 149
+356.7s 199 2026-03-17 01:43:20,048  ============================================================
+356.7s 200 2026-03-17 01:43:20,048  DATASET 3: Coswara Heavy Cough
+356.7s 201 2026-03-17 01:43:20,048  ============================================================
+356.7s 202 
+356.7s 203 2026-03-17 01:43:20,047  COVID-19 Cough Sounds: 1356 samples
+356.7s 204 2026-03-17 01:43:20,048    Class 0 (healthy): 1207
+356.7s 205 2026-03-17 01:43:20,048    Class 2 (COVID-19-positive): 149
+356.7s 206 2026-03-17 01:43:20,048  ============================================================
+356.7s 207 2026-03-17 01:43:20,048  DATASET 3: Coswara Heavy Cough
+356.7s 208 2026-03-17 01:43:20,048  ============================================================
+396.6s 209 2026-03-17 01:44:00,126  Copied Coswara cache from /kaggle/input/datasets/mohammad002/deepcoughnet-cache/coswara_mel.npz
+396.6s 210 2026-03-17 01:44:00,127  Loading from cache: /kaggle/working/cache/coswara_mel.npz
+396.8s 211 2026-03-17 01:44:00,126  Copied Coswara cache from /kaggle/input/datasets/mohammad002/deepcoughnet-cache/coswara_mel.npz
+396.8s 212 2026-03-17 01:44:00,127  Loading from cache: /kaggle/working/cache/coswara_mel.npz
+396.8s 213 
+396.8s 214 2026-03-17 01:44:00,126  Copied Coswara cache from /kaggle/input/datasets/mohammad002/deepcoughnet-cache/coswara_mel.npz
+396.8s 215 2026-03-17 01:44:00,127  Loading from cache: /kaggle/working/cache/coswara_mel.npz
+397.3s 216 2026-03-17 01:44:00,816  Coswara: 2274 samples
+397.3s 217 2026-03-17 01:44:00,817    Class 0 (healthy): 1648
+397.3s 218 2026-03-17 01:44:00,817    Class 1 (symptomatic): 146
+397.3s 219 2026-03-17 01:44:00,817    Class 2 (COVID-19-positive): 480
+397.3s 220 2026-03-17 01:44:00,817  ============================================================
+397.3s 221 2026-03-17 01:44:00,817  MERGING DATASETS
+397.3s 222 2026-03-17 01:44:00,817  ============================================================
+397.3s 223 2026-03-17 01:44:00,817    COUGHVID: 13535 samples
+397.3s 224 2026-03-17 01:44:00,817    COVID-19 Cough Sounds: 1356 samples
+397.3s 225 2026-03-17 01:44:00,817    Coswara: 2274 samples
+397.5s 226 2026-03-17 01:44:00,816  Coswara: 2274 samples
+397.5s 227 2026-03-17 01:44:00,817    Class 0 (healthy): 1648
+397.5s 228 2026-03-17 01:44:00,817    Class 1 (symptomatic): 146
+397.5s 229 2026-03-17 01:44:00,817    Class 2 (COVID-19-positive): 480
+397.5s 230 2026-03-17 01:44:00,817  ============================================================
+397.5s 231 2026-03-17 01:44:00,817  MERGING DATASETS
+397.5s 232 2026-03-17 01:44:00,817  ============================================================
+397.5s 233 2026-03-17 01:44:00,817    COUGHVID: 13535 samples
+397.5s 234 2026-03-17 01:44:00,817    COVID-19 Cough Sounds: 1356 samples
+397.5s 235 2026-03-17 01:44:00,817    Coswara: 2274 samples
+397.5s 236 
+397.5s 237 2026-03-17 01:44:00,816  Coswara: 2274 samples
+397.5s 238 2026-03-17 01:44:00,817    Class 0 (healthy): 1648
+397.5s 239 2026-03-17 01:44:00,817    Class 1 (symptomatic): 146
+397.5s 240 2026-03-17 01:44:00,817    Class 2 (COVID-19-positive): 480
+397.5s 241 2026-03-17 01:44:00,817  ============================================================
+397.5s 242 2026-03-17 01:44:00,817  MERGING DATASETS
+397.5s 243 2026-03-17 01:44:00,817  ============================================================
+397.5s 244 2026-03-17 01:44:00,817    COUGHVID: 13535 samples
+397.5s 245 2026-03-17 01:44:00,817    COVID-19 Cough Sounds: 1356 samples
+397.5s 246 2026-03-17 01:44:00,817    Coswara: 2274 samples
+397.6s 247 2026-03-17 01:44:01,189
+397.6s 248 MERGED DATASET: 17165 total samples
+397.6s 249 2026-03-17 01:44:01,191    Class 0 (             healthy): 12987
+397.6s 250 2026-03-17 01:44:01,191    Class 1 (         symptomatic): 2829
+397.6s 251 2026-03-17 01:44:01,191    Class 2 (   COVID-19-positive): 1349
+397.6s 252 2026-03-17 01:44:01,192
+397.6s 253 By source:
+397.6s 254 2026-03-17 01:44:01,192    coughvid: 13535
+397.6s 255 2026-03-17 01:44:01,192    coswara: 2274
+397.6s 256 2026-03-17 01:44:01,192    covid_sounds: 1356
+397.8s 257 2026-03-17 01:44:01,189
+397.8s 258 MERGED DATASET: 17165 total samples
+397.8s 259 2026-03-17 01:44:01,191    Class 0 (             healthy): 12987
+397.8s 260 2026-03-17 01:44:01,191    Class 1 (         symptomatic): 2829
+397.8s 261 2026-03-17 01:44:01,191    Class 2 (   COVID-19-positive): 1349
+397.8s 262 2026-03-17 01:44:01,192
+397.8s 263 By source:
+397.8s 264 2026-03-17 01:44:01,192    coughvid: 13535
+397.8s 265 2026-03-17 01:44:01,192    coswara: 2274
+397.8s 266 2026-03-17 01:44:01,192    covid_sounds: 1356
+397.8s 267 
+397.8s 268 2026-03-17 01:44:01,189
+397.8s 269 MERGED DATASET: 17165 total samples
+397.8s 270 2026-03-17 01:44:01,191    Class 0 (             healthy): 12987
+397.8s 271 2026-03-17 01:44:01,191    Class 1 (         symptomatic): 2829
+397.8s 272 2026-03-17 01:44:01,191    Class 2 (   COVID-19-positive): 1349
+397.8s 273 2026-03-17 01:44:01,192
+397.8s 274 By source:
+397.8s 275 2026-03-17 01:44:01,192    coughvid: 13535
+397.8s 276 2026-03-17 01:44:01,192    coswara: 2274
+397.8s 277 2026-03-17 01:44:01,192    covid_sounds: 1356
+399.0s 278 2026-03-17 01:44:02,536
+399.0s 279 Norm: mean=-63.57, std=20.73, range=[-0.79, 3.07]
+399.2s 280 2026-03-17 01:44:02,536
+399.2s 281 Norm: mean=-63.57, std=20.73, range=[-0.79, 3.07]
+399.2s 282 
+399.2s 283 2026-03-17 01:44:02,536
+399.2s 284 Norm: mean=-63.57, std=20.73, range=[-0.79, 3.07]
+399.3s 285 2026-03-17 01:44:02,853
+399.3s 286 Before oversampling — Train: 13732 | Val: 3433
+399.3s 287 2026-03-17 01:44:02,855    Train class 0: 10390
+399.3s 288 2026-03-17 01:44:02,855    Train class 1: 2263
+399.3s 289 2026-03-17 01:44:02,855    Train class 2: 1079
+399.3s 290 2026-03-17 01:44:02,855    CPU mode: capping oversample target to 5000 per class
+399.5s 291 2026-03-17 01:44:02,853
+399.5s 292 Before oversampling — Train: 13732 | Val: 3433
+399.5s 293 2026-03-17 01:44:02,855    Train class 0: 10390
+399.5s 294 2026-03-17 01:44:02,855    Train class 1: 2263
+399.5s 295 2026-03-17 01:44:02,855    Train class 2: 1079
+399.5s 296 2026-03-17 01:44:02,855    CPU mode: capping oversample target to 5000 per class
+399.5s 297 
+399.5s 298 2026-03-17 01:44:02,853
+399.5s 299 Before oversampling — Train: 13732 | Val: 3433
+399.5s 300 2026-03-17 01:44:02,855    Train class 0: 10390
+399.5s 301 2026-03-17 01:44:02,855    Train class 1: 2263
+399.5s 302 2026-03-17 01:44:02,855    Train class 2: 1079
+399.5s 303 2026-03-17 01:44:02,855    CPU mode: capping oversample target to 5000 per class
+399.6s 304 2026-03-17 01:44:03,131    Class 0: 10390 -> 5000 (undersampled)
+399.7s 305 2026-03-17 01:44:03,224    Class 1: 2263 -> 5000 (+2737)
+399.8s 306 2026-03-17 01:44:03,314    Class 2: 1079 -> 5000 (+3921)
+399.8s 307 2026-03-17 01:44:03,131    Class 0: 10390 -> 5000 (undersampled)
+399.8s 308 2026-03-17 01:44:03,224    Class 1: 2263 -> 5000 (+2737)
+399.8s 309 2026-03-17 01:44:03,314    Class 2: 1079 -> 5000 (+3921)
+399.8s 310 
+399.8s 311 2026-03-17 01:44:03,131    Class 0: 10390 -> 5000 (undersampled)
+399.8s 312 2026-03-17 01:44:03,224    Class 1: 2263 -> 5000 (+2737)
+399.8s 313 2026-03-17 01:44:03,314    Class 2: 1079 -> 5000 (+3921)
+400.4s 314 2026-03-17 01:44:03,913  After oversampling — Train: 15000
+400.4s 315 2026-03-17 01:44:03,915    Train class 0: 5000
+400.4s 316 2026-03-17 01:44:03,915    Train class 1: 5000
+400.4s 317 2026-03-17 01:44:03,915    Train class 2: 5000
+400.6s 318 2026-03-17 01:44:03,913  After oversampling — Train: 15000
+400.6s 319 2026-03-17 01:44:03,915    Train class 0: 5000
+400.6s 320 2026-03-17 01:44:03,915    Train class 1: 5000
+400.6s 321 2026-03-17 01:44:03,915    Train class 2: 5000
+400.6s 322 
+400.6s 323 2026-03-17 01:44:03,913  After oversampling — Train: 15000
+400.6s 324 2026-03-17 01:44:03,915    Train class 0: 5000
+400.6s 325 2026-03-17 01:44:03,915    Train class 1: 5000
+400.6s 326 2026-03-17 01:44:03,915    Train class 2: 5000
+401.5s 327 2026-03-17 01:44:05,033  Model: DeepCoughNet v2 architecture (4 conv blocks)
+401.5s 328 [WARNING] ME(59:137196671161472,MainProcess):2026-03-17-01:44:05.500.00 [mindspore/common/_decorator.py:69] 'FusedSparseAdam' is deprecated from version 2.8.0 and will be removed in a future version.
+401.5s 329 2026-03-17 01:44:05,050  Loss: Focal (gamma=2.0, smooth=0.1)
+401.5s 330 2026-03-17 01:44:05,050  Optimizer: Adam (lr=0.0005, wd=1e-4)
+401.5s 331 2026-03-17 01:44:05,051  ============================================================
+401.5s 332 2026-03-17 01:44:05,051  TRAINING START (v4 — Multi-Dataset)
+401.5s 333 2026-03-17 01:44:05,051  ============================================================
+401.7s 334 2026-03-17 01:44:05,033  Model: DeepCoughNet v2 architecture (4 conv blocks)
+401.7s 335 [WARNING] ME(59:137196671161472,MainProcess):2026-03-17-01:44:05.500.00 [mindspore/common/_decorator.py:69] 'FusedSparseAdam' is deprecated from version 2.8.0 and will be removed in a future version.
+401.7s 336 2026-03-17 01:44:05,050  Loss: Focal (gamma=2.0, smooth=0.1)
+401.7s 337 2026-03-17 01:44:05,050  Optimizer: Adam (lr=0.0005, wd=1e-4)
+401.7s 338 2026-03-17 01:44:05,051  ============================================================
+401.7s 339 2026-03-17 01:44:05,051  TRAINING START (v4 — Multi-Dataset)
+401.7s 340 2026-03-17 01:44:05,051  ============================================================
+401.7s 341 
+401.7s 342 2026-03-17 01:44:05,033  Model: DeepCoughNet v2 architecture (4 conv blocks)
+401.7s 343 [WARNING] ME(59:137196671161472,MainProcess):2026-03-17-01:44:05.500.00 [mindspore/common/_decorator.py:69] 'FusedSparseAdam' is deprecated from version 2.8.0 and will be removed in a future version.
+401.7s 344 2026-03-17 01:44:05,050  Loss: Focal (gamma=2.0, smooth=0.1)
+401.7s 345 2026-03-17 01:44:05,050  Optimizer: Adam (lr=0.0005, wd=1e-4)
+401.7s 346 2026-03-17 01:44:05,051  ============================================================
+401.7s 347 2026-03-17 01:44:05,051  TRAINING START (v4 — Multi-Dataset)
+401.7s 348 2026-03-17 01:44:05,051  ============================================================
+1040.7s 349 2026-03-17 01:54:44,248  Ep   1/35  tl=0.4979  vl=0.4597 va=0.4398  [hea=0.51 | sym=0.03 | COV=0.61]  (639s)
+1040.7s 350 2026-03-17 01:54:44,255    * Best=0.4398
+1040.9s 351 2026-03-17 01:54:44,248  Ep   1/35  tl=0.4979  vl=0.4597 va=0.4398  [hea=0.51 | sym=0.03 | COV=0.61]  (639s)
+1040.9s 352 2026-03-17 01:54:44,255    * Best=0.4398
+1040.9s 353 
+1040.9s 354 2026-03-17 01:54:44,248  Ep   1/35  tl=0.4979  vl=0.4597 va=0.4398  [hea=0.51 | sym=0.03 | COV=0.61]  (639s)
+1040.9s 355 2026-03-17 01:54:44,255    * Best=0.4398
+1667.0s 356 2026-03-17 02:05:10,505  Ep   2/35  tl=0.4792  vl=0.5396 va=0.2426  [hea=0.23 | sym=0.02 | COV=0.86]  (626s)
+1667.2s 357 2026-03-17 02:05:10,505  Ep   2/35  tl=0.4792  vl=0.5396 va=0.2426  [hea=0.23 | sym=0.02 | COV=0.86]  (626s)
+1667.2s 358 
+1667.2s 359 2026-03-17 02:05:10,505  Ep   2/35  tl=0.4792  vl=0.5396 va=0.2426  [hea=0.23 | sym=0.02 | COV=0.86]  (626s)
+2253.8s 360 2026-03-17 02:14:57,309  Ep   3/35  tl=0.4691  vl=0.4112 va=0.6091  [hea=0.75 | sym=0.01 | COV=0.48]  (587s)
+2253.8s 361 2026-03-17 02:14:57,314    * Best=0.6091
+2254.0s 362 2026-03-17 02:14:57,309  Ep   3/35  tl=0.4691  vl=0.4112 va=0.6091  [hea=0.75 | sym=0.01 | COV=0.48]  (587s)
+2254.0s 363 2026-03-17 02:14:57,314    * Best=0.6091
+2254.0s 364 
+2254.0s 365 2026-03-17 02:14:57,309  Ep   3/35  tl=0.4691  vl=0.4112 va=0.6091  [hea=0.75 | sym=0.01 | COV=0.48]  (587s)
+2254.0s 366 2026-03-17 02:14:57,314    * Best=0.6091
+2840.8s 367 2026-03-17 02:24:44,375  Ep   4/35  tl=0.4654  vl=0.4315 va=0.5485  [hea=0.67 | sym=0.00 | COV=0.54]  (587s)
+2841.0s 368 2026-03-17 02:24:44,375  Ep   4/35  tl=0.4654  vl=0.4315 va=0.5485  [hea=0.67 | sym=0.00 | COV=0.54]  (587s)
+2841.0s 369 
+2841.0s 370 2026-03-17 02:24:44,375  Ep   4/35  tl=0.4654  vl=0.4315 va=0.5485  [hea=0.67 | sym=0.00 | COV=0.54]  (587s)
+3416.7s 371 2026-03-17 02:34:20,208  Ep   5/35  tl=0.4611  vl=0.4724 va=0.4416  [hea=0.52 | sym=0.00 | COV=0.64]  (576s)
+3416.9s 372 2026-03-17 02:34:20,208  Ep   5/35  tl=0.4611  vl=0.4724 va=0.4416  [hea=0.52 | sym=0.00 | COV=0.64]  (576s)
+3416.9s 373 
+3416.9s 374 2026-03-17 02:34:20,208  Ep   5/35  tl=0.4611  vl=0.4724 va=0.4416  [hea=0.52 | sym=0.00 | COV=0.64]  (576s)
+3998.2s 375 2026-03-17 02:44:01,762  Ep   6/35  tl=0.4593  vl=0.4448 va=0.5133  [hea=0.61 | sym=0.02 | COV=0.57]  (582s)
+3998.4s 376 2026-03-17 02:44:01,762  Ep   6/35  tl=0.4593  vl=0.4448 va=0.5133  [hea=0.61 | sym=0.02 | COV=0.57]  (582s)
+3998.4s 377 
+3998.4s 378 2026-03-17 02:44:01,762  Ep   6/35  tl=0.4593  vl=0.4448 va=0.5133  [hea=0.61 | sym=0.02 | COV=0.57]  (582s)
+4577.2s 379 2026-03-17 02:53:40,762  Ep   7/35  tl=0.4540  vl=0.3898 va=0.6327  [hea=0.79 | sym=0.00 | COV=0.44]  (579s)
+4577.2s 380 2026-03-17 02:53:40,768    * Best=0.6327
+4577.4s 381 2026-03-17 02:53:40,762  Ep   7/35  tl=0.4540  vl=0.3898 va=0.6327  [hea=0.79 | sym=0.00 | COV=0.44]  (579s)
+4577.4s 382 2026-03-17 02:53:40,768    * Best=0.6327
+4577.4s 383 
+4577.4s 384 2026-03-17 02:53:40,762  Ep   7/35  tl=0.4540  vl=0.3898 va=0.6327  [hea=0.79 | sym=0.00 | COV=0.44]  (579s)
+4577.4s 385 2026-03-17 02:53:40,768    * Best=0.6327
+5150.4s 386 2026-03-17 03:03:13,984  Ep   8/35  tl=0.4518  vl=0.4011 va=0.6030  [hea=0.74 | sym=0.03 | COV=0.49]  (573s)
+5150.6s 387 2026-03-17 03:03:13,984  Ep   8/35  tl=0.4518  vl=0.4011 va=0.6030  [hea=0.74 | sym=0.03 | COV=0.49]  (573s)
+5150.6s 388 
+5150.6s 389 2026-03-17 03:03:13,984  Ep   8/35  tl=0.4518  vl=0.4011 va=0.6030  [hea=0.74 | sym=0.03 | COV=0.49]  (573s)
+5719.4s 390 2026-03-17 03:12:42,985  Ep   9/35  tl=0.4487  vl=0.3622 va=0.6834  [hea=0.86 | sym=0.04 | COV=0.36]  (569s)
+5719.4s 391 2026-03-17 03:12:42,990    * Best=0.6834
+5719.6s 392 2026-03-17 03:12:42,985  Ep   9/35  tl=0.4487  vl=0.3622 va=0.6834  [hea=0.86 | sym=0.04 | COV=0.36]  (569s)
+5719.6s 393 2026-03-17 03:12:42,990    * Best=0.6834
+5719.6s 394 
+5719.6s 395 2026-03-17 03:12:42,985  Ep   9/35  tl=0.4487  vl=0.3622 va=0.6834  [hea=0.86 | sym=0.04 | COV=0.36]  (569s)
+5719.6s 396 2026-03-17 03:12:42,990    * Best=0.6834
+6299.7s 397 2026-03-17 03:22:23,249  Ep  10/35  tl=0.4449  vl=0.3431 va=0.7006  [hea=0.89 | sym=0.03 | COV=0.29]  (580s)
+6299.7s 398 2026-03-17 03:22:23,254    * Best=0.7006
+6299.9s 399 2026-03-17 03:22:23,249  Ep  10/35  tl=0.4449  vl=0.3431 va=0.7006  [hea=0.89 | sym=0.03 | COV=0.29]  (580s)
+6299.9s 400 2026-03-17 03:22:23,254    * Best=0.7006
+6299.9s 401 
+6299.9s 402 2026-03-17 03:22:23,249  Ep  10/35  tl=0.4449  vl=0.3431 va=0.7006  [hea=0.89 | sym=0.03 | COV=0.29]  (580s)
+6299.9s 403 2026-03-17 03:22:23,254    * Best=0.7006
+6879.1s 404 2026-03-17 03:32:02,627  Ep  11/35  tl=0.4400  vl=0.3840 va=0.6356  [hea=0.79 | sym=0.02 | COV=0.46]  (579s)
+6879.3s 405 2026-03-17 03:32:02,627  Ep  11/35  tl=0.4400  vl=0.3840 va=0.6356  [hea=0.79 | sym=0.02 | COV=0.46]  (579s)
+6879.3s 406 
+6879.3s 407 2026-03-17 03:32:02,627  Ep  11/35  tl=0.4400  vl=0.3840 va=0.6356  [hea=0.79 | sym=0.02 | COV=0.46]  (579s)
+7459.1s 408 2026-03-17 03:41:42,635  Ep  12/35  tl=0.4352  vl=0.4027 va=0.5939  [hea=0.72 | sym=0.03 | COV=0.53]  (580s)
+7459.3s 409 2026-03-17 03:41:42,635  Ep  12/35  tl=0.4352  vl=0.4027 va=0.5939  [hea=0.72 | sym=0.03 | COV=0.53]  (580s)
+7459.3s 410 
+7459.3s 411 2026-03-17 03:41:42,635  Ep  12/35  tl=0.4352  vl=0.4027 va=0.5939  [hea=0.72 | sym=0.03 | COV=0.53]  (580s)
+8068.6s 412 2026-03-17 03:51:52,181  Ep  13/35  tl=0.4307  vl=0.3150 va=0.7230  [hea=0.92 | sym=0.07 | COV=0.24]  (610s)
+8068.6s 413 2026-03-17 03:51:52,187    * Best=0.7230
+8068.9s 414 2026-03-17 03:51:52,181  Ep  13/35  tl=0.4307  vl=0.3150 va=0.7230  [hea=0.92 | sym=0.07 | COV=0.24]  (610s)
+8068.9s 415 2026-03-17 03:51:52,187    * Best=0.7230
+8068.9s 416 
+8068.9s 417 2026-03-17 03:51:52,181  Ep  13/35  tl=0.4307  vl=0.3150 va=0.7230  [hea=0.92 | sym=0.07 | COV=0.24]  (610s)
+8068.9s 418 2026-03-17 03:51:52,187    * Best=0.7230
+8660.4s 419 2026-03-17 04:01:43,939  Ep  14/35  tl=0.4252  vl=0.3095 va=0.7425  [hea=0.95 | sym=0.04 | COV=0.20]  (592s)
+8660.4s 420 2026-03-17 04:01:43,944    * Best=0.7425
+8660.6s 421 2026-03-17 04:01:43,939  Ep  14/35  tl=0.4252  vl=0.3095 va=0.7425  [hea=0.95 | sym=0.04 | COV=0.20]  (592s)
+8660.6s 422 2026-03-17 04:01:43,944    * Best=0.7425
+8660.6s 423 
+8660.6s 424 2026-03-17 04:01:43,939  Ep  14/35  tl=0.4252  vl=0.3095 va=0.7425  [hea=0.95 | sym=0.04 | COV=0.20]  (592s)
+8660.6s 425 2026-03-17 04:01:43,944    * Best=0.7425
+9240.2s 426 2026-03-17 04:11:23,712  Ep  15/35  tl=0.4183  vl=0.3218 va=0.7032  [hea=0.88 | sym=0.14 | COV=0.14]  (580s)
+9240.4s 427 2026-03-17 04:11:23,712  Ep  15/35  tl=0.4183  vl=0.3218 va=0.7032  [hea=0.88 | sym=0.14 | COV=0.14]  (580s)
+9240.4s 428 
+9240.4s 429 2026-03-17 04:11:23,712  Ep  15/35  tl=0.4183  vl=0.3218 va=0.7032  [hea=0.88 | sym=0.14 | COV=0.14]  (580s)
+9824.6s 430 2026-03-17 04:21:08,148  Ep  16/35  tl=0.4131  vl=0.3086 va=0.7297  [hea=0.94 | sym=0.04 | COV=0.18]  (584s)
+9824.8s 431 2026-03-17 04:21:08,148  Ep  16/35  tl=0.4131  vl=0.3086 va=0.7297  [hea=0.94 | sym=0.04 | COV=0.18]  (584s)
+9824.8s 432 
+9824.8s 433 2026-03-17 04:21:08,148  Ep  16/35  tl=0.4131  vl=0.3086 va=0.7297  [hea=0.94 | sym=0.04 | COV=0.18]  (584s)
+10428.5s 434 2026-03-17 04:31:12,007  Ep  17/35  tl=0.4045  vl=0.3089 va=0.7341  [hea=0.94 | sym=0.07 | COV=0.12]  (604s)
+10428.7s 435 2026-03-17 04:31:12,007  Ep  17/35  tl=0.4045  vl=0.3089 va=0.7341  [hea=0.94 | sym=0.07 | COV=0.12]  (604s)
+10428.7s 436 
+10428.7s 437 2026-03-17 04:31:12,007  Ep  17/35  tl=0.4045  vl=0.3089 va=0.7341  [hea=0.94 | sym=0.07 | COV=0.12]  (604s)
+11030.9s 438 2026-03-17 04:41:14,415  Ep  18/35  tl=0.4004  vl=0.3058 va=0.7317  [hea=0.94 | sym=0.07 | COV=0.14]  (602s)
+11031.1s 439 2026-03-17 04:41:14,415  Ep  18/35  tl=0.4004  vl=0.3058 va=0.7317  [hea=0.94 | sym=0.07 | COV=0.14]  (602s)
+11031.1s 440 
+11031.1s 441 2026-03-17 04:41:14,415  Ep  18/35  tl=0.4004  vl=0.3058 va=0.7317  [hea=0.94 | sym=0.07 | COV=0.14]  (602s)
+11636.3s 442 2026-03-17 04:51:19,843  Ep  19/35  tl=0.3890  vl=0.3144 va=0.7291  [hea=0.94 | sym=0.05 | COV=0.09]  (605s)
+11636.5s 443 2026-03-17 04:51:19,843  Ep  19/35  tl=0.3890  vl=0.3144 va=0.7291  [hea=0.94 | sym=0.05 | COV=0.09]  (605s)
+11636.5s 444 
+11636.5s 445 2026-03-17 04:51:19,843  Ep  19/35  tl=0.3890  vl=0.3144 va=0.7291  [hea=0.94 | sym=0.05 | COV=0.09]  (605s)
+12238.1s 446 2026-03-17 05:01:21,653  Ep  20/35  tl=0.3786  vl=0.4592 va=0.5604  [hea=0.64 | sym=0.42 | COV=0.04]  (602s)
+12238.3s 447 2026-03-17 05:01:21,653  Ep  20/35  tl=0.3786  vl=0.4592 va=0.5604  [hea=0.64 | sym=0.42 | COV=0.04]  (602s)
+12238.3s 448 
+12238.3s 449 2026-03-17 05:01:21,653  Ep  20/35  tl=0.3786  vl=0.4592 va=0.5604  [hea=0.64 | sym=0.42 | COV=0.04]  (602s)
+12836.2s 450 2026-03-17 05:11:19,704  Ep  21/35  tl=0.3743  vl=0.3548 va=0.7355  [hea=0.95 | sym=0.07 | COV=0.06]  (598s)
+12836.4s 451 2026-03-17 05:11:19,704  Ep  21/35  tl=0.3743  vl=0.3548 va=0.7355  [hea=0.95 | sym=0.07 | COV=0.06]  (598s)
+12836.4s 452 
+12836.4s 453 2026-03-17 05:11:19,704  Ep  21/35  tl=0.3743  vl=0.3548 va=0.7355  [hea=0.95 | sym=0.07 | COV=0.06]  (598s)
+13433.1s 454 2026-03-17 05:21:16,642  Ep  22/35  tl=0.3615  vl=0.3426 va=0.7125  [hea=0.91 | sym=0.09 | COV=0.13]  (597s)
+13433.3s 455 2026-03-17 05:21:16,642  Ep  22/35  tl=0.3615  vl=0.3426 va=0.7125  [hea=0.91 | sym=0.09 | COV=0.13]  (597s)
+13433.3s 456 
+13433.3s 457 2026-03-17 05:21:16,642  Ep  22/35  tl=0.3615  vl=0.3426 va=0.7125  [hea=0.91 | sym=0.09 | COV=0.13]  (597s)
+14032.9s 458 2026-03-17 05:31:16,438  Ep  23/35  tl=0.3540  vl=0.3357 va=0.7209  [hea=0.93 | sym=0.05 | COV=0.16]  (600s)
+14033.1s 459 2026-03-17 05:31:16,438  Ep  23/35  tl=0.3540  vl=0.3357 va=0.7209  [hea=0.93 | sym=0.05 | COV=0.16]  (600s)
+14033.1s 460 
+14033.1s 461 2026-03-17 05:31:16,438  Ep  23/35  tl=0.3540  vl=0.3357 va=0.7209  [hea=0.93 | sym=0.05 | COV=0.16]  (600s)
+14631.1s 462 2026-03-17 05:41:14,667  Ep  24/35  tl=0.3461  vl=0.4621 va=0.7148  [hea=0.92 | sym=0.10 | COV=0.05]  (598s)
+14631.1s 463 2026-03-17 05:41:14,667    Early stop.
+14631.1s 464 2026-03-17 05:41:14,667  Done. Best val_acc=0.7425
+14631.3s 465 2026-03-17 05:41:14,667  Ep  24/35  tl=0.3461  vl=0.4621 va=0.7148  [hea=0.92 | sym=0.10 | COV=0.05]  (598s)
+14631.3s 466 2026-03-17 05:41:14,667    Early stop.
+14631.3s 467 2026-03-17 05:41:14,667  Done. Best val_acc=0.7425
+14631.3s 468 
+14631.3s 469 2026-03-17 05:41:14,667  Ep  24/35  tl=0.3461  vl=0.4621 va=0.7148  [hea=0.92 | sym=0.10 | COV=0.05]  (598s)
+14631.3s 470 2026-03-17 05:41:14,667    Early stop.
+14631.3s 471 2026-03-17 05:41:14,667  Done. Best val_acc=0.7425
+14672.8s 472 2026-03-17 05:41:56,352  Final: loss=0.3095 acc=0.7425
+14672.8s 473 2026-03-17 05:41:56,361                 healthy: P=0.768 R=0.953 F1=0.850
+14672.8s 474 2026-03-17 05:41:56,361             symptomatic: P=0.303 R=0.035 F1=0.063
+14672.8s 475 2026-03-17 05:41:56,362       COVID-19-positive: P=0.377 R=0.204 F1=0.264
+14672.8s 476 2026-03-17 05:41:56,363  Confusion matrix:
+14672.8s 477 [[2474   43   80]
+14672.8s 478 [ 535   20   11]
+14672.8s 479 [ 212    3   55]]
+14673.0s 480 2026-03-17 05:41:56,352  Final: loss=0.3095 acc=0.7425
+14673.0s 481 2026-03-17 05:41:56,361                 healthy: P=0.768 R=0.953 F1=0.850
+14673.0s 482 2026-03-17 05:41:56,361             symptomatic: P=0.303 R=0.035 F1=0.063
+14673.0s 483 2026-03-17 05:41:56,362       COVID-19-positive: P=0.377 R=0.204 F1=0.264
+14673.0s 484 2026-03-17 05:41:56,363  Confusion matrix:
+14673.0s 485 [[2474   43   80]
+14673.0s 486 [ 535   20   11]
+14673.0s 487 [ 212    3   55]]
+14673.0s 488 
+14673.0s 489 2026-03-17 05:41:56,352  Final: loss=0.3095 acc=0.7425
+14673.0s 490 2026-03-17 05:41:56,361                 healthy: P=0.768 R=0.953 F1=0.850
+14673.0s 491 2026-03-17 05:41:56,361             symptomatic: P=0.303 R=0.035 F1=0.063
+14673.0s 492 2026-03-17 05:41:56,362       COVID-19-positive: P=0.377 R=0.204 F1=0.264
+14673.0s 493 2026-03-17 05:41:56,363  Confusion matrix:
+14673.0s 494 [[2474   43   80]
+14673.0s 495 [ 535   20   11]
+14673.0s 496 [ 212    3   55]]
+14673.6s 497 2026-03-17 05:41:57,189  MindIR failed: The parameters number of the function is 2, but the number of provided arguments is 1.
+14673.6s 498 FunctionGraph : __main___DeepCoughNet_construct_8
+14673.6s 499 NodeInfo:
+14673.6s 500 
+14673.6s 501 ----------------------------------------------------
+14673.6s 502 - C++ Call Stack: (For framework developers)
+14673.6s 503 ----------------------------------------------------
+14673.6s 504 mindspore/ccsrc/frontend/jit/ps/static_analysis/evaluator.cc:417 Eval
+14673.6s 505 
+14673.6s 506 2026-03-17 05:41:57,191  ============================================================
+14673.6s 507 2026-03-17 05:41:57,191  PIPELINE COMPLETE (v4)
+14673.6s 508 2026-03-17 05:41:57,191  ============================================================
+14673.6s 509 2026-03-17 05:41:57,191  Best val_acc: 0.7425
+14673.6s 510 2026-03-17 05:41:57,191  Total training samples (after oversampling): 15000
+14673.6s 511 2026-03-17 05:41:57,191  Files: deepcoughnet_best.ckpt, inference_meta.json, mel_norm.npz
+14673.6s 512 
+14673.6s 513 precision    recall  f1-score   support
+14673.6s 514 
+14673.6s 515 healthy       0.77      0.95      0.85      2597
+14673.6s 516 symptomatic       0.30      0.04      0.06       566
+14673.6s 517 COVID-19-positive       0.38      0.20      0.26       270
+14673.6s 518 
+14673.6s 519 accuracy                           0.74      3433
+14673.6s 520 macro avg       0.48      0.40      0.39      3433
+14673.6s 521 weighted avg       0.66      0.74      0.67      3433
+14673.6s 522 
+14673.8s 523 2026-03-17 05:41:57,189  MindIR failed: The parameters number of the function is 2, but the number of provided arguments is 1.
+14673.8s 524 FunctionGraph : __main___DeepCoughNet_construct_8
+14673.8s 525 NodeInfo:
+14673.8s 526 
+14673.8s 527 ----------------------------------------------------
+14673.8s 528 - C++ Call Stack: (For framework developers)
+14673.8s 529 ----------------------------------------------------
+14673.8s 530 mindspore/ccsrc/frontend/jit/ps/static_analysis/evaluator.cc:417 Eval
+14673.8s 531 
+14673.8s 532 2026-03-17 05:41:57,191  ============================================================
+14673.8s 533 2026-03-17 05:41:57,191  PIPELINE COMPLETE (v4)
+14673.8s 534 2026-03-17 05:41:57,191  ============================================================
+14673.8s 535 2026-03-17 05:41:57,191  Best val_acc: 0.7425
+14673.8s 536 2026-03-17 05:41:57,191  Total training samples (after oversampling): 15000
+14673.8s 537 2026-03-17 05:41:57,191  Files: deepcoughnet_best.ckpt, inference_meta.json, mel_norm.npz
+14673.8s 538 
+14673.8s 539 2026-03-17 05:41:57,189  MindIR failed: The parameters number of the function is 2, but the number of provided arguments is 1.
+14673.8s 540 FunctionGraph : __main___DeepCoughNet_construct_8
+14673.8s 541 NodeInfo:
+14673.8s 542 
+14673.8s 543 ----------------------------------------------------
+14673.8s 544 - C++ Call Stack: (For framework developers)
+14673.8s 545 ----------------------------------------------------
+14673.8s 546 mindspore/ccsrc/frontend/jit/ps/static_analysis/evaluator.cc:417 Eval
+14673.8s 547 
+14673.8s 548 2026-03-17 05:41:57,191  ============================================================
+14673.8s 549 2026-03-17 05:41:57,191  PIPELINE COMPLETE (v4)
+14673.8s 550 2026-03-17 05:41:57,191  ============================================================
+14673.8s 551 2026-03-17 05:41:57,191  Best val_acc: 0.7425
+14673.8s 552 2026-03-17 05:41:57,191  Total training samples (after oversampling): 15000
+14673.8s 553 2026-03-17 05:41:57,191  Files: deepcoughnet_best.ckpt, inference_meta.json, mel_norm.npz
+14673.8s 554 
+14673.8s 555 precision    recall  f1-score   support
+14673.8s 556 
+14673.8s 557 healthy       0.77      0.95      0.85      2597
+14673.8s 558 symptomatic       0.30      0.04      0.06       566
+14673.8s 559 COVID-19-positive       0.38      0.20      0.26       270
+14673.8s 560 
+14673.8s 561 accuracy                           0.74      3433
+14673.8s 562 macro avg       0.48      0.40      0.39      3433
+14673.8s 563 weighted avg       0.66      0.74      0.67      3433
+14673.8s 564 
+14675.1s 565 Kernel died while waiting for execute reply.
+14675.1s 566 Traceback (most recent call last):
+14675.1s 567 File "/usr/local/lib/python3.12/dist-packages/nbclient/client.py", line 949, in async_execute_cell
+14675.1s 568 exec_reply = await self.task_poll_for_reply
+14675.1s 569 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+14675.1s 570 File "/usr/local/lib/python3.12/dist-packages/nbclient/client.py", line 730, in _async_poll_for_reply
+14675.1s 571 msg = await ensure_async(self.kc.shell_channel.get_msg(timeout=new_timeout))
+14675.1s 572 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+14675.1s 573 File "/usr/local/lib/python3.12/dist-packages/nbclient/util.py", line 96, in ensure_async
+14675.1s 574 result = await obj
+14675.1s 575 ^^^^^^^^^
+14675.1s 576 File "/usr/local/lib/python3.12/dist-packages/jupyter_client/channels.py", line 224, in get_msg
+14675.1s 577 ready = await self.socket.poll(timeout)
+14675.1s 578 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+14675.1s 579 asyncio.exceptions.CancelledError
+14675.1s 580 
+14675.1s 581 During handling of the above exception, another exception occurred:
+14675.1s 582 
+14675.1s 583 Traceback (most recent call last):
+14675.1s 584 File "<string>", line 1, in <module>
+14675.1s 585 File "/usr/local/lib/python3.12/dist-packages/papermill/execute.py", line 116, in execute_notebook
+14675.1s 586 nb = papermill_engines.execute_notebook_with_engine(
+14675.1s 587 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+14675.1s 588 File "/usr/local/lib/python3.12/dist-packages/papermill/engines.py", line 48, in execute_notebook_with_engine
+14675.1s 589 return self.get_engine(engine_name).execute_notebook(nb, kernel_name, **kwargs)
+14675.1s 590 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+14675.1s 591 File "/usr/local/lib/python3.12/dist-packages/papermill/engines.py", line 370, in execute_notebook
+14675.1s 592 cls.execute_managed_notebook(nb_man, kernel_name, log_output=log_output, **kwargs)
+14675.1s 593 File "/usr/local/lib/python3.12/dist-packages/papermill/engines.py", line 442, in execute_managed_notebook
+14675.1s 594 return PapermillNotebookClient(nb_man, **final_kwargs).execute()
+14675.1s 595 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+14675.1s 596 File "/usr/local/lib/python3.12/dist-packages/papermill/clientwrap.py", line 45, in execute
+14675.1s 597 self.papermill_execute_cells()
+14675.1s 598 File "/usr/local/lib/python3.12/dist-packages/papermill/clientwrap.py", line 72, in papermill_execute_cells
+14675.1s 599 self.execute_cell(cell, index)
+14675.1s 600 File "/usr/local/lib/python3.12/dist-packages/nbclient/util.py", line 84, in wrapped
+14675.1s 601 return just_run(coro(*args, **kwargs))
+14675.1s 602 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+14675.1s 603 File "/usr/local/lib/python3.12/dist-packages/nbclient/util.py", line 62, in just_run
+14675.1s 604 return loop.run_until_complete(coro)
+14675.1s 605 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+14675.1s 606 File "/usr/lib/python3.12/asyncio/base_events.py", line 691, in run_until_complete
+14675.1s 607 return future.result()
+14675.1s 608 ^^^^^^^^^^^^^^^
+14675.1s 609 File "/usr/local/lib/python3.12/dist-packages/nbclient/client.py", line 953, in async_execute_cell
+14675.1s 610 raise DeadKernelError("Kernel died")
+14675.1s 611 nbclient.exceptions.DeadKernelError: Kernel died
+14677.1s 612 /usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\|'
+14677.1s 613 cells[i][c] = re.sub('\\\\\|', '|', cell)
+14677.3s 614 /usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\_'
+14677.3s 615 text = re.sub(r'_', '\_', text) # Escape underscores in display text
+14677.8s 616 /usr/local/lib/python3.12/dist-packages/traitlets/traitlets.py:2915: FutureWarning: --Exporter.preprocessors=["remove_papermill_header.RemovePapermillHeader"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.
+14677.8s 617 warn(
+14677.9s 618 [NbConvertApp] Converting notebook __notebook__.ipynb to notebook
+14678.2s 619 [NbConvertApp] Writing 60361 bytes to __notebook__.ipynb
+14680.4s 620 /usr/local/lib/python3.12/dist-packages/traitlets/traitlets.py:2915: FutureWarning: --Exporter.preprocessors=["nbconvert.preprocessors.ExtractOutputPreprocessor"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.
+14680.4s 621 warn(
+14680.4s 622 [NbConvertApp] Converting notebook __notebook__.ipynb to html
+14681.3s 623 [NbConvertApp] Writing 350910 bytes to __results__.html
